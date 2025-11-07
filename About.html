@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>About Me - Daniel's Store</title>
+<style>
+  :root{
+    --bg:#0b0b0b;
+    --accent:#00ffff;
+    --accent-dark:#00cccc;
+    --muted:#bfbfbf;
+  }
+  body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:var(--bg);
+    color:#fff;
+  }
+  header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:16px 20px;
+    background:#111;
+    box-shadow:0 4px 10px rgba(0,255,255,0.1);
+  }
+  .logo{
+    font-weight:bold;
+    font-size:1.8rem;
+    color:var(--accent);
+  }
+  nav a{
+    color:var(--accent);
+    text-decoration:none;
+    margin-left:16px;
+    font-weight:700;
+    transition:.2s;
+  }
+  nav a:hover{color:var(--accent-dark);}
+  main{
+    max-width:900px;
+    margin:30px auto;
+    padding:0 20px;
+  }
+  h1{color:var(--accent);}
+  p{color:var(--muted); line-height:1.6; margin-bottom:16px;}
+  a.button{
+    display:inline-block;
+    margin-top:12px;
+    padding:8px 16px;
+    background:var(--accent);
+    color:#000;
+    border-radius:6px;
+    text-decoration:none;
+    font-weight:700;
+    transition:.2s;
+  }
+  a.button:hover{background:var(--accent-dark);}
+  footer{
+    text-align:center;
+    padding:16px;
+    background:#0f0f0f;
+    margin-top:40px;
+    border-top:1px solid rgba(255,255,255,0.03);
+    color:var(--muted);
+  }
+  footer a{color:var(--accent);}
+  footer a:hover{color:var(--accent-dark);}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">DR Store</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="https://www.youtube.com/@Thorne-b6x" target="_blank">YouTube</a>
+  </nav>
+</header>
+
+<main>
+  <h1>About Me</h1>
+  <p>Hello! My name is <strong>Daniel Roodman</strong>, and I’m 12 years old. I got inspired by my friend to learn HTML and make my very own website where I can share and sell second-hand items like golf clubs and mini-golf sets.</p>
+  
+  <p>I made this website because I wanted to create something fun and useful. My goal is to make a simple, easy-to-use online store, and maybe one day turn it into a bigger project or company!</p>
+  
+  <p>Even though I don’t use Instagram or Facebook (I’m just a kid!), you can check out my <a href="https://www.youtube.com/@Thorne-b6x" target="_blank">YouTube channel</a> for more fun projects I work on.</p>
+
+  <p>Thanks for visiting my website! I hope you enjoy browsing the store and seeing what I’ve built so far.</p>
+
+  <a href="index.html" class="button">Back to Store</a>
+</main>
+
+<footer>
+  &copy; 2025 Daniel Roodman. All rights reserved.
+</footer>
+
+</body>
+</html>
